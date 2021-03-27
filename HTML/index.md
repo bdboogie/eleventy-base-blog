@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: HTML
+title: HTML & CSS
 templateClass: tmpl-post
 eleventyNavigation:
   key: HTML

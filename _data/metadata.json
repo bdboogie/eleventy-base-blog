@@ -1,9 +1,9 @@
 {
-  "title": "Your Blog Name",
+  "title": "Portfolio - bdboogie",
   "url": "https://example.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "Portfolio for JAMStack Bootcamp",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Site repository for all the work covered in the course",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
@@ -13,7 +13,7 @@
     "url": "https://example.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
+    "name": "John Megson",
     "email": "youremailaddress@example.com",
     "url": "https://example.com/about-me/"
   }

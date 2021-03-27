@@ -3,8 +3,8 @@ layout: layouts/post.njk
 title: HTML & CSS
 templateClass: tmpl-post
 eleventyNavigation:
-  key: HTML
+  key: HTML & CSS
   order: 4
 ---
 
-Keep trying we'll get this up there
+so this is going to be the home page for alll the HTML and CSS tasks and resources, so that damn table and the carousel

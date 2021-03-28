@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Semantic Challenge
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Semenatic
+  key: Semantic
   parent: HTML & CSS
   order: 1
 ---

@@ -6,13 +6,21 @@ tags:
   - another-tag
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+I Got a bit attached to the support message linked to every pages through the base.njk file.  Then I thought why not add it to the first post and refer to it there, freeing up a lovely bit of real estate ont eh page. Splendid.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+<!-- Delete this message -->
+      <div class="warning">
+        <ol>
+         
+          <li>(Optional - left this in incase I need to refer to the file path) Edit <code>.eleventy.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li> 
+        </ol>
+        <p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
+      </div>
+      <!-- Stop deleting -->
 
 ## Section Header
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+I made a bit of a "how you say in English 'Balls up'" trying to retain the message in this post as I accidently added the above secton to the base.njk file and when I saved it obvs it got added to every page , D'Oh.
 
 ``` text/2-3
 // this is a command

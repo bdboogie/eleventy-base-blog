@@ -8,6 +8,10 @@ eleventyNavigation:
 {% set maxPosts = collections.posts.length | min(3) %}
 <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 
+<img src = "placeholder.jpg">
+Welcome to my JAMStack site, poke around see what it is I've been upto.  
+
+The latest posts covering my thoughts and discoverys are below , and a sectiopn of the course work can be found in the navigation bar.  ENJOY!
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}

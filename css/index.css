@@ -44,6 +44,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
+  background-color: #1a5c33;
   border-bottom: 1px dashed var(--lightgray);
 }
 header:after {
@@ -114,8 +115,10 @@ pre {
   background-color: #902f2f;
 }
 
-/* Header */
+/* Header - the title part of the site in the Nav bar*/
 .home {
+  background-color: #1a5c33;
+  color: #ffffff;
   padding: 0 1rem;
   float: left;
   margin: 1rem 0; /* 16px /16 */
@@ -127,6 +130,7 @@ pre {
 
 /* Nav */
 .nav {
+  background-color: #1a5c33;
   padding: 0;
   list-style: none;
   float: left;
@@ -137,6 +141,7 @@ pre {
   margin-right: 1em;
 }
 .nav-item a[href]:not(:hover) {
+  color: #ffffff;
   text-decoration: none;
 }
 .nav-item-active {

@@ -6,7 +6,9 @@ tags:
   - second-tag
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+I put some pretty cool stuff in this post then lost it all using CTRL + Z trying to undo a change I'd made a few steps back. The moral of the story use the repo to revert and not the shortcuts , which lead to long remedial work , grrr!
+
+
 
 ``` js/2/4
 // this is a command
@@ -23,6 +25,6 @@ console.log('Test');
 
 Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
 
-## Section Header
+## Section Header (I know by now I should be changing these but its just superficial for now)
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+I'm really interested in how these code sections work, add that to the back log of tasks to look in to.

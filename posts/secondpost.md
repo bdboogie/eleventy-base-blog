@@ -1,18 +1,18 @@
 ---
-title: This is my second post.
-description: This is a post on My Blog about leveraging agile frameworks.
-date: 2018-07-04
+title: Post Part Deux (Second Post - sort of).
+description: This the second in a series of posts on My Blog supporting my JAMStack Portfolio.
+date: 2021-03-29
 tags:
   - number-2
+  - waffle
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Tidy up time! The reminder to complete the submission form has propmpted me to go back through the weekly tasks and tidy up some of the taks that were left for further investigation.
 
 ## Section Header
 
 <a href="{{ '/posts/firstpost/' | url }}">First post</a>
 <a href="{{ '/posts/thirdpost/' | url }}">Third post</a>
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+Part of the tidy up is renaming the above to be relevant, A thought as I'm typing, if this is post two Post three wouldnt be avaialbel in realtime. I'm assuming if the third post is not available the text becomes a dead link rather than an error on the page.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.

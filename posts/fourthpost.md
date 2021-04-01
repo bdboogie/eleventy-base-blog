@@ -1,13 +1,13 @@
 ---
-title: This is my fourth post.
+title: This is my fourth (Wall) post.
 description: This is a post on My Blog about touchpoints and circling wagons.
 date: 2018-09-30
 tags: second-tag
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+How is this your fourth post when posts 1 & 2 are more recent ?!?! 
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+Well John thats because we're not doing this in real time are we , you obviously found that amending the date at the top of th etemplate isnt just a reference it is used by a funciton to order the posts, clever really althoguht now that means youre going to have to look in to and understand that too , "damn your curiosity".
 
 ## Section Header
 

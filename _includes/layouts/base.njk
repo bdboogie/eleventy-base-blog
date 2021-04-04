@@ -9,6 +9,21 @@
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+    <! additional code that might need adjust ment with above to work, step 13 in https://stevepolito.design/blog/create-a-bootstrap-starter-theme-in-eleventy/ >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% if title %}
+        <title>{{site.title}} - {{title}}</title>
+    {% else %}
+        <title>{{site.title}}</title>
+    {% endif %}
+    {% if description %}
+        <meta name="description" content="{{description}}">
+    {% else %}
+        <meta name="description" content="{{site.description}}">
+    {% endif %}
+    <link rel="stylesheet" href="./assets/main.css">
+
+  
   </head>
   <body>
     <header>
@@ -28,7 +43,7 @@
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <footer><script src="./assets/main.js"></script></footer>
 
     <!-- Current page: {{ page.url | url }} -->
   </body>

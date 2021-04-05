@@ -11,6 +11,6 @@ Well I made a right mess of that , adding the default.njk content kicked everyth
 This was the offending siote that I obviously failed to follow correctly although I dont think it helped that I wasdnt using 'Parcel', I assume touch just means create a file, which I simulated by right clicking in VSCode
 <img src="/imageAssets/15BGC009.JPG">
 
-<img src ="C:\Users\bdboogie\Documents\GitHub\eleventy-base-blog\posts\fifthpost.jpg">
+<img src ="./posts/fifthpost.jpg">
 I have however found this useful site that I need to gen up on a bit more.
 https://css-tricks.com/killer-features-of-nunjucks/

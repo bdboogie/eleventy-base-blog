@@ -16,15 +16,21 @@
       <main>
         <h1>Challenge 12</h1>
         <p>Write a function that outputs a sentence. Then invoke that function later in your code. (Lesson 10 - Functions and Control Flow)</p>
-        <p> insert sentence :</p>
-        <p id="idMessage"></p>
-        <p>
-          <button type="button" class="button" onclick="function()">Button text</button>
-          </p>
-      <p>The final coded used for the function is listed below, you can review <a href="chg11-tipCalculator.js">chg11-tipCalculator.js</a> for all the code iterations.</p>
-      <pre>
-      
-      function code
+        <p class="lead">Write a function that outputs a sentence. Then invoke that function later in the code.</p>
+        <div class="bg-white">
+          <p>The final coded used for the function is listed below, you can review <a href="chg12-sentenceOutput.js">chg12-sentenceOutput.js</a> for all the code iterations.</p>
+          <pre>
+            function createSentence() {
+              var newSentence =
+                "I look into their eyes, shake their hand, pat their back, and wish them luck, but I am thinking, ' I am going to bury you'. - Seve Ballesteros";
+              document.getElementById("sentence").innerHTML = newSentence;
+            }
           </pre>
+        </div>
+                <p>
+                  <button type="button" class="" onclick="createSentence()">Press Me</button>
+                </p>
+                <p id="sentence" class=""></p>
+     
       </main>
   </body>

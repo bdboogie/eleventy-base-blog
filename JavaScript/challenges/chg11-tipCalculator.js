@@ -24,7 +24,7 @@ document.write(totalBillWithTip);
 };
 */
 /*Attempt 2 tidyied up*/
-function tipCalculator() {
+/* function tipCalculator() {
     var billAmount = parseInt(document.getElementById("billAmount").value);
     var tipPercentage = parseInt(
     document.getElementById("percentAmount").value
@@ -34,10 +34,10 @@ function tipCalculator() {
     return (document.getElementById(
     "totalBillSentence"
     ).innerHTML = `Your bill of £${billAmount.toFixed( 2 )}, with a ${tipPercentage}% optional service charge of £${tipPercentCalc} , is a total bill of £${totalBill}`);
-    }
+    } */
 
     /*Attempt #3*/
-    function tipCalculator() {
+    /*function tipCalculator() {
         var billAmount = parseInt(document.getElementById("billAmount").value);
       
         var tipPercentage = parseInt(document.getElementById("percentAmount").value);
@@ -53,5 +53,14 @@ function tipCalculator() {
         )}, with a ${tipPercentage}% optional sertvice charge of £${tipPercentCalc.toFixed(
           2
         )} , is a total bill of £${totalBill.toFixed(2)}`);
-      }
+      } */
+
+      /*Attempt 4 */
     
+      function calculateTip() {
+        var billAmount = 49.56;
+        var tipPercent = 17;
+        var tipAmount = (billAmount * tipPercent / 100);
+        document.getElementById('totalBillMessage').innerHTML = 
+        `Your total bill, including a gratuity of £${tipAmount.toFixed(2)}, comes to £${(billAmount + tipAmount).toFixed(2)}`;
+    };

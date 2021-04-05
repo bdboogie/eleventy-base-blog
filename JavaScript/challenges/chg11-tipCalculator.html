@@ -3,29 +3,35 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic JS Script</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Challenge 11</title>
+    <meta name="description" content="Portfolio for JAMStack Bootcamp">
     <link rel="stylesheet" href="/css/index.css">
-    <script type="text/javascript" src="/chg11-tipCalculator.js"></script>
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Portfolio - bdboogie">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Portfolio - bdboogie">
+    <script type="text/javascript" src="../chg11-tipCalculator.js"></script>
   </head>
   <body>
+    <div><a href="/">Home</a></div>
       <main>
           <h1>Challenge 11</h1>
           <p>Create a tip calculator in javascript (Lesson 9 - Programming Concepts)</p>
-          <p> Your "Eat Out to Help Out" bill comes to £49.56, if you would like to add a gratuity press the button below:</p>
+          <p> Your "Eat Out to Help Out" bill comes to <strong>£49.56</strong>, <br>
+          if you would like to add a gratuity press the button below:</p>
+          <p id="totalBillMessage"></p>
           <p>
-            <button type="button" class="btn btn-secondary text-warning" onclick="calcTip()">Press Me</button>
+            <button type="button" class="" onclick="calculateTip()">Add Gratuity</button>
             </p>
-        <p>The final coded used to calculatethe tip is listed below you can review <a href="chg11-tipCalculator.js">chg11-tipCalculator.js</a> for all the code iterations.</p>
+        <p>The final coded used to calculate the gratuity (tip) is listed below you can review <a href="chg11-tipCalculator.js">chg11-tipCalculator.js</a> for all the code iterations.</p>
         <pre>
-            function calcTip() {
-                var totalAmount = 49.56;
-                var tipPercent = 17;
-                var tipAmount = (totalAmount * tipPercent / 100);
-                document.getElementById('tipText').innerHTML = 
-                `Your total bill, including tip comes to £${(totalAmount + tipAmount).toFixed(2)}` +
-                `. The tip amount was £${tipAmount.toFixed(2)}`;
-            };
+        
+        function calculateTip() {
+          var billAmount = 49.56;
+          var tipPercent = 17;
+          var tipAmount = (billAmount * tipPercent / 100);
+          document.getElementById('totalBillMessage').innerHTML = 
+          `Your total bill, including a gratuity of £${tipAmount.toFixed(2)}, comes to £${(billAmount + tipAmount).toFixed(2)}`;
+      };
             </pre>
       </main>
   </body>

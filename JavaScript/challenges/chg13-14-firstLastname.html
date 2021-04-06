@@ -15,16 +15,30 @@
     <div><a href="/">Home</a></div>
       <main>
           <          <h1>Challenge 13&14</h1>
-          <p>Write a function that outputs a sentence. Then invoke that function later in your code. (Lesson 10 - Functions and Control Flow)</p>
-          <p> insert sentence :</p>
+          <p>Write a simple program to combine a first name and a last name inside a function. Then update the function to accept a first and last name as arguments. (Lesson 10 - Functions and Control Flow)</p>
+            <p>Add a return statement to your 'name' function. Use that function to set the value of a variable.(Lesson 10 - Functions and Control Flow</p>
+          <p> insert sentence:</p>
           <p id="idMessage"></p>
           <p>
-            <button type="button" class="button" onclick="function()">Button text</button>
+            <button type="button" class="button" onclick="displayFullName()">Click to See Name</button>
             </p>
-        <p>The final coded used for the function is listed below, you can review <a href="chg11-tipCalculator.js">chg11-tipCalculator.js</a> for all the code iterations.</p>
+        <p>The final coded used for the function is listed below, you can review <a href="../chg13-14-firstLastname.js">chg13-14-firstLastname.js</a> for all the code iterations.</p>
         <pre>
-        
-        function code
+        /* Challenge 13
+        Write a simple program to combine a first name and a last name inside a function.
+        Then update the function to accept a first and last name as arguments.
+        */
+        function displayFullName(firstName, lastName) {
+            var fullName = document.getElementById("firstName").value;
+            var lastName = document.getElementById("lastName").value;
+            
+        /* Challenge 14
+        Add a return statement to your 'name' function. Use that function to set the value of a variable.
+        */
+            return (document.getElementById(
+              "fullNameDisplay"
+            ).innerHTML = `${firstName} ${lastName}`);
+          }
             </pre>
       </main>
   </body>

@@ -6,14 +6,14 @@ Then update the function to accept a first and last name as arguments.
 */
 
 
-function displayFullName(fName, lName) {
-    var fName = document.getElementById("fName").value;
-    var lName = document.getElementById("lName").value;
+function displayFullName(firstName, lastName) {
+    var firstName = document.getElementById("firstName").value;
+    var lastName = document.getElementById("lastName").value;
     
 /* Challenge 14
 Add a return statement to your 'name' function. Use that function to set the value of a variable.
 */
     return (document.getElementById(
       "fullNameDisplay"
-    ).innerHTML = `${fName} ${lName}`);
+    ).innerHTML = `${firstName} ${lastName}`);
   }

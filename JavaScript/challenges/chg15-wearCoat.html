@@ -14,16 +14,43 @@
   <body>
     <div><a href="/">Home</a></div>
     <          <h1>Challenge 15</h1>
-    <p>Write a function that outputs a sentence. Then invoke that function later in your code. (Lesson 10 - Functions and Control Flow)</p>
-    <p> insert sentence :</p>
-    <p id="idMessage"></p>
-    <p>
-      <button type="button" class="button" onclick="function()">Button text</button>
-      </p>
-  <p>The final coded used for the function is listed below, you can review <a href="chg11-tipCalculator.js">chg11-tipCalculator.js</a> for all the code iterations.</p>
+    <p>"Shall I wear a coat?" function (Lesson 10 - Functions and Control Flow)</p>
+    <p> whats the temperature outside today?</p>
+    <form class="TBC" name="temperature"><input type='hidden' name='form-name' value='temperature' />
+      <div class="">
+        <label for="temperature" class="label">Temperature</label>
+        <input type="input" class="" name="temperature" id="temperature" required>
+        <br>
+      </div>
+      
+      <div class="">
+        <button type="submit" class="button" onclick="putOnCoat()">See what to wear</button>
+      </div>
+    </form>
+    <p id="sentence"></p>
+
+  <p>The final coded used for the function is listed below, you can review <a href="../chg15-wearCoat.js">chg15-wearCoat.js</a> for all the code iterations.</p>
   <pre>
+    function putOnCoat(temperature){
+      let sentence = '';
+      if (temperature < 50) {
+          sentence += 'Put on a coat '
+      } else {
+          'Pants and vest are fine'
+      }
+      if (temperature < 30) {
+          sentence += 'and a hat'
+      }
+      if (temperature < 0) {
+          sentence = 'Stay inside'
+      }
+      if (sentence == '') {
+          sentence = 'Pants and vest are fine'
+      }
+    document.getElementById("sentence").innerHTML = sentence
+  }
   
-  function code
+  
       </pre>
       </main>
   </body>

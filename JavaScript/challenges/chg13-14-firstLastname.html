@@ -12,33 +12,55 @@
     <script type="text/javascript" src="../chg13-14-firstLastname.js"></script>
   </head>
   <body>
-    <div><a href="/">Home</a></div>
+    <div><a href="/">Home</a>
+    </div>
       <main>
           <          <h1>Challenge 13&14</h1>
-          <p>Write a simple program to combine a first name and a last name inside a function. Then update the function to accept a first and last name as arguments. (Lesson 10 - Functions and Control Flow)</p>
-            <p>Add a return statement to your 'name' function. Use that function to set the value of a variable.(Lesson 10 - Functions and Control Flow</p>
-          <p> insert sentence:</p>
-          <p id="idMessage"></p>
+          <p><strong>Part 1</strong>Write a simple program to combine a first name and a last name inside a function. Then update the function to accept a first and last name as arguments. (Lesson 10 - Functions and Control Flow)</p>
+            <p><strong>Part 2</strong>Add a return statement to your 'name' function. Use that function to set the value of a variable.(Lesson 10 - Functions and Control Flow)</p>
+          
+          <p id="fullNameDisplay"></p>
           <p>
-            <button type="button" class="button" onclick="displayFullName()">Click to See Name</button>
-            </p>
-        <p>The final coded used for the function is listed below, you can review <a href="../chg13-14-firstLastname.js">chg13-14-firstLastname.js</a> for all the code iterations.</p>
-        <pre>
-        /* Challenge 13
-        Write a simple program to combine a first name and a last name inside a function.
-        Then update the function to accept a first and last name as arguments.
-        */
-        function displayFullName(firstName, lastName) {
-            var fullName = document.getElementById("firstName").value;
-            var lastName = document.getElementById("lastName").value;
-            
-        /* Challenge 14
-        Add a return statement to your 'name' function. Use that function to set the value of a variable.
-        */
-            return (document.getElementById(
-              "fullNameDisplay"
-            ).innerHTML = `${firstName} ${lastName}`);
-          }
-            </pre>
+            <form class="TBC" name="contact"><input type='hidden' name='form-name' value='contact' />
+              <div class="">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="input" class="form-control" name="firstName" id="firstName" required>
+                <br>
+              </div>
+              <div class="">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="input" class="form-control" name="lastName" id="lastName" required>
+                <br>
+              </div>
+              <div class="">
+                <button type="button" class="button" onclick="fullNameDisplay()">Click to see name</button>
+              </div>
+            </form>
+          </p>
+
+          <div>       
+
+            <p>The final coded used for the function is listed below, you can review <a href="../chg13-14-firstLastname.js">chg13-14-firstLastname.js</a> for all the code iterations.</p>
+            <pre>
+            /* Challenge 13
+            Write a simple program to combine a first name and a last name inside a function.
+            Then update the function to accept a first and last name as arguments.
+            */
+            function displayFullName(firstName, lastName) {
+                var firstName = document.getElementById("firstName").value;
+                var lastName = document.getElementById("lastName").value;
+                
+            /* Challenge 14
+            Add a return statement to your 'name' function. Use that function to set the value of a variable.
+            */
+                return (document.getElementById(
+                  "fullNameDisplay"
+                ).innerHTML = `${firstName} ${lastName}`);
+              }
+                </pre>
+          </div>
+          <div><p>Can you spot the error in the code above, hopefully you're quicker than I was grr!</p></div> 
+
+
       </main>
   </body>

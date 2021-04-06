@@ -6,7 +6,7 @@ Then update the function to accept a first and last name as arguments.
 */
 
 
-function displayFullName(firstName, lastName) {
+function fullNameDisplay(firstName, lastName) {
     var firstName = document.getElementById("firstName").value;
     var lastName = document.getElementById("lastName").value;
     

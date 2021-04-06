@@ -15,19 +15,31 @@
     <div><a href="/">Home</a></div>
     <          <h1>Challenge 15</h1>
     <p>"Shall I wear a coat?" function (Lesson 10 - Functions and Control Flow)</p>
-    <p> whats the temperature outside today?</p>
-    <form class="TBC" name="temperature"><input type='hidden' name='form-name' value='temperature' />
-      <div class="">
-        <label for="temperature" class="label">Temperature</label>
-        <input type="input" class="" name="temperature" id="temperature" required>
-        <br>
-      </div>
-      
-      <div class="">
-        <button type="submit" class="button" onclick="putOnCoat()">See what to wear</button>
-      </div>
-    </form>
-    <p id="sentence"></p>
+    <script> 
+      function putOnCoat(temperature){
+          let sentence = '';
+          if (temperature < 50) {
+              sentence += 'Put on a coat '
+          } else {
+              'Pants and vest are fine'
+          }
+          if (temperature < 30) {
+              sentence += 'and a hat'
+          }
+          if (temperature < 0) {
+              sentence = 'Stay inside'
+          }
+          if (sentence == '') {
+              sentence = 'Pants and vest are fine'
+          }
+        document.getElementById("response").innerHTML = sentence
+      }
+      </script>
+
+      <p>What is the temperature?</p>
+      <input type="text" id="temperature" placeholder="enter a temperature" oninput="putOnCoat(this.value)">
+      <p id="response"></p>
+   
 
   <p>The final coded used for the function is listed below, you can review <a href="../chg15-wearCoat.js">chg15-wearCoat.js</a> for all the code iterations.</p>
   <pre>
@@ -47,10 +59,16 @@
       if (sentence == '') {
           sentence = 'Pants and vest are fine'
       }
-    document.getElementById("sentence").innerHTML = sentence
+    document.getElementById("response").innerHTML = sentence
   }
   
   
       </pre>
-      </main>
+
+
+<h3>Retrospective</h3>
+      <p>The above code does not deal well with a defined value of zero</p>
+      <p>the page is also not picking up the remote file</p>
+
+  
   </body>

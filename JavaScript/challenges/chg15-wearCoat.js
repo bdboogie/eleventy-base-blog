@@ -14,5 +14,5 @@ function putOnCoat(temperature){
     if (sentence == '') {
         sentence = 'Pants and vest are fine'
     }
-  document.getElementById("sentence").innerHTML = sentence
+  document.getElementById("response").innerHTML = sentence
 }
